@@ -1,0 +1,10 @@
+
+.insights {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    justify-items: stretch;
+    align-items: center;
+    grid-gap: .5rem;
+}

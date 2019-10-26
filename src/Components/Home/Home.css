@@ -1,0 +1,227 @@
+.home_container {
+  width: 100%;
+  height: 100vh;
+  padding: 1rem;
+}
+
+/* home content */
+.home_content {
+  width: 100%;
+  height: 100vh;
+}
+
+/* hi from twimcast div */
+
+.greetigns {
+  width: 90%;
+  height: 30%;
+  background: linear-gradient(
+    rgba(253, 252, 252, 0.7) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 10px;
+}
+
+/* first div header */
+.greetings_header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.8rem 0.1rem;
+}
+
+.greetings_header > h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 200;
+  color: #494949;
+}
+
+/* carousel styling */
+
+/* featured div styling */
+
+.featured {
+  width: 90%;
+  height: 30%;
+  background: linear-gradient(
+    rgba(253, 252, 252, 0.7) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.featured > h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 0.8rem;
+  color: #494949;
+}
+
+/* styling trending div  starts */
+
+.trending {
+  width: 90%;
+  /* height: 30%; */
+  background: linear-gradient(
+    rgba(253, 252, 252, 0.7) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-bottom: 2px solid #9d9283;
+}
+.trending > h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 0.8rem;
+  background: #aaa3a31a;
+  color: #494949;
+}
+
+.trending_contents {
+  width: 100%;
+}
+
+.trending_contents .item {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 3.5fr 0.5fr;
+  margin: 1rem 0;
+  border-bottom: 1px solid rgb(219, 216, 216);
+}
+
+.item_content {
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.item_content * {
+  margin: 0;
+  padding: 0.2rem;
+}
+.item_content h4 {
+  font-weight: 700;
+  color: #494949;
+}
+.item_content p {
+  font-size: 14px;
+  color: #a9a9a9;
+}
+
+.item_content h6 {
+  color: #9d9283;
+}
+.more {
+  justify-self: center;
+  align-self: flex-end;
+}
+.more img {
+  padding-bottom: 1rem;
+}
+footer {
+  width: 100%;
+  text-align: end;
+  padding: 0.5rem;
+  color: #9d9283;
+  font-weight: bold;
+}
+
+/* trending divs ends  */
+
+/* latest divs start here */
+
+.latest,
+.banking {
+  width: 90%;
+  /* height: 30%; */
+  background: linear-gradient(
+    rgba(253, 252, 252, 0.7) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-bottom: 2px solid #9d9283;
+  margin-top: 1.5rem;
+}
+.latest h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 0.8rem;
+  background: #aaa3a31a;
+  color: #494949;
+}
+
+.latest_contents {
+  width: 100%;
+}
+
+.latest_contents .item {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 3.5fr 0.5fr;
+  margin: 1rem 0;
+  border-bottom: 1px solid rgb(219, 216, 216);
+}
+
+.item_content {
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.item_content * {
+  margin: 0;
+  padding: 0.2rem;
+}
+.item_content h4 {
+  font-weight: 700;
+  color: #494949;
+}
+.item_content p {
+  font-size: 14px;
+  color: #a9a9a9;
+}
+
+.item_content h6 {
+  color: #9d9283;
+}
+.more {
+  justify-self: center;
+  align-self: flex-end;
+}
+.more img {
+  padding-bottom: 1rem;
+}
+footer {
+  width: 100%;
+  text-align: end;
+  padding: 0.5rem;
+  color: #9d9283;
+  font-weight: bold;
+}
+
+/* latest divs ends here */
+
+/* banking div styling starts here */
+
+.banking h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 0.8rem;
+  background: #aaa3a31a;
+  color: #494949;
+}
+
+.banking_contents {
+  width: 100%;
+}
+
+.banking_contents .item {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 3.5fr 0.5fr;
+  margin: 1rem 0;
+  border-bottom: 1px solid rgb(219, 216, 216);
+}
+
+/* banking styling ends here */

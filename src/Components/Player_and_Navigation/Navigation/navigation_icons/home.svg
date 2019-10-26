@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21.988" viewBox="0 0 21 21.988">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="21" height="21.988" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="home" clip-path="url(#clip-path)">
+    <path id="_Icon_Сolor" data-name="🎨 Icon Сolor" d="M18.8,21.988H2.2a2.2,2.2,0,0,1-2.2-2.2V10.574A2.214,2.214,0,0,1,.671,8.992l9-8.674a1.252,1.252,0,0,1,1.667,0l8.994,8.673A2.216,2.216,0,0,1,21,10.574v9.213A2.2,2.2,0,0,1,18.8,21.988ZM7,10.987h7a1.136,1.136,0,0,1,1.167,1.1v7.7h3.489l.012-9.213L10.5,2.662,2.34,10.528l-.007,9.259h3.5v-7.7A1.136,1.136,0,0,1,7,10.987Zm1.167,2.2v6.6h4.666v-6.6Z" transform="translate(0 0)" fill="#0d1c2e"/>
+  </g>
+</svg>

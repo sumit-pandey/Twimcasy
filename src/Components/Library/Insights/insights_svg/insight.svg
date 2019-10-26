@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64.8" height="64.8" viewBox="0 0 64.8 64.8">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 225 225">
+      <image width="225" height="225" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAANlBMVEX///8AAADz8/Pg4OAICAjw8PBOTk4wMDBhYWFCQkL29vb7+/sQEBA0NDTk5OTV1dU5OTlHR0cJP+I4AAAA1klEQVR4nO3bOQ7CMABE0RD2NXD/y9JjBFEUyR7rvTJyMb+1nGEAAAAAAAAAAAAAAAAAAAAAAADgp/H06XCpvWld+01hrL1pXfudwnQK8ynMpzCfwnwK8ynMpzCfwnx9FZ6LmNmOtbfPc1heeK69fR6FCtunUGH7FCpsn0KF7VOosH2v5YXP2tvneWxLU3mLMX059qi9fbmxLOztPU1XN1HfKMynMJ/CfArzKcynMJ/CfArz9f9HyXg/frh1Vjhc/34AAAAAAAAAAAAAAAAAAAAAAADW8gYCnAt31gGMmgAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <path id="NoPath_-_Copy" data-name="NoPath - Copy" d="M0,0H64.8V64.8H0Z" fill="url(#pattern)"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="370.404" height="387.706" viewBox="0 0 370.404 387.706">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.525" y2="1.214" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.702"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="Path_378" x="147.658" y="308.223" width="26.148" height="26.148" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect width="39" height="10" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="4" height="18" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="_Icon_Сolor" data-name="🎨 Icon Сolor" d="M0,16a2,2,0,1,1,2,2A2,2,0,0,1,0,16ZM0,9a2,2,0,1,1,2,2A2,2,0,0,1,0,9ZM0,2A2,2,0,1,1,2,4,2,2,0,0,1,0,2Z" transform="translate(10 3)" fill="#0d1c2e"/>
+    </clipPath>
+  </defs>
+  <g id="Group_397" data-name="Group 397" transform="translate(-21.639 -66.777)">
+    <path id="Path_377" data-name="Path 377" d="M13.388,0H356.06c7.57,0,13.707,7.841,13.707,17.513l.319,340.141c0,4.316-44.669,43.628-95.534,25.132-74.91-62.887-148.016-40.141-170.11-28.765C30.378,393.446-.319,288.135-.319,17.513-.319,7.841,5.818,0,13.388,0Z" transform="translate(21.957 66.777)" fill="url(#linear-gradient)"/>
+    <text id="Hi_from_Twimcast" data-name="Hi from Twimcast" transform="translate(38 104)" fill="#494949" font-size="20" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">Hi from </tspan><tspan y="0" font-family="SegoeUI, Segoe UI" font-weight="400">Twimcast</tspan></text>
+    <g id="Group_387" data-name="Group 387" transform="translate(18.296 29)">
+      <g transform="matrix(1, 0, 0, 1, 3.34, 37.78)" filter="url(#Path_378)">
+        <path id="Path_378-2" data-name="Path 378" d="M4.074,0A4.074,4.074,0,1,1,0,4.074,4.074,4.074,0,0,1,4.074,0Z" transform="translate(156.66 314.22)" fill="#494949"/>
+      </g>
+      <g id="Repeat_Grid_12" data-name="Repeat Grid 12" transform="translate(178.704 352)" clip-path="url(#clip-path)">
+        <g transform="translate(-178 -351)">
+          <circle id="Ellipse_9" data-name="Ellipse 9" cx="2.5" cy="2.5" r="2.5" transform="translate(178 353)" fill="#d8d8d8"/>
+        </g>
+        <g transform="translate(-163 -351)">
+          <circle id="Ellipse_9-2" data-name="Ellipse 9" cx="2.5" cy="2.5" r="2.5" transform="translate(178 353)" fill="#d8d8d8"/>
+        </g>
+        <g transform="translate(-148 -351)">
+          <circle id="Ellipse_9-3" data-name="Ellipse 9" cx="2.5" cy="2.5" r="2.5" transform="translate(178 353)" fill="#d8d8d8"/>
+        </g>
+      </g>
+    </g>
+    <g id="more-vertical" transform="translate(373 90.5)" clip-path="url(#clip-path-2)">
+      <path id="_Icon_Сolor-2" data-name="🎨 Icon Сolor" d="M0,16a2,2,0,1,1,2,2A2,2,0,0,1,0,16ZM0,9a2,2,0,1,1,2,2A2,2,0,0,1,0,9ZM0,2A2,2,0,1,1,2,4,2,2,0,0,1,0,2Z" fill="#0d1c2e"/>
+    </g>
+  </g>
+</svg>

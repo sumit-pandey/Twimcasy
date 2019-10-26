@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 10 10">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="10" height="10" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="_Icon_Сolor" data-name="🎨 Icon Сolor" d="M5.257,9.835a.713.713,0,0,1-.091-1.005l3.2-3.837L5.28,1.162a.714.714,0,0,1,1.113-.9L9.842,4.552a.713.713,0,0,1-.008.905L6.263,9.743a.714.714,0,0,1-1.006.091Zm-5,0A.713.713,0,0,1,.166,8.829l3.2-3.837L.28,1.162a.714.714,0,0,1,1.113-.9L4.842,4.552a.714.714,0,0,1-.008.905L1.263,9.743a.714.714,0,0,1-1.006.091Z" transform="translate(0 0)" fill="#9d9283"/>
+    </clipPath>
+  </defs>
+  <g id="arrowhead-right" clip-path="url(#clip-path)">
+    <path id="_Icon_Сolor-2" data-name="🎨 Icon Сolor" d="M5.257,9.835a.713.713,0,0,1-.091-1.005l3.2-3.837L5.28,1.162a.714.714,0,0,1,1.113-.9L9.842,4.552a.713.713,0,0,1-.008.905L6.263,9.743a.714.714,0,0,1-1.006.091Zm-5,0A.713.713,0,0,1,.166,8.829l3.2-3.837L.28,1.162a.714.714,0,0,1,1.113-.9L4.842,4.552a.714.714,0,0,1-.008.905L1.263,9.743a.714.714,0,0,1-1.006.091Z" transform="translate(0 0)" fill="#9d9283"/>
+  </g>
+</svg>

@@ -3,11 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.5.2",
     "bootstrap": "^4.3.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-responsive-carousel": "^3.1.50",
     "react-scripts": "3.2.0",
+    "react-swipeable-views": "^0.13.3",
+    "react-swipeable-views-utils": "^0.13.3",
+    "react-transition-group": "^4.3.0",
     "reactstrap": "^8.1.1"
   },
   "scripts": {

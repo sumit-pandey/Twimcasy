@@ -6,11 +6,21 @@
   justify-content: space-around;
   align-items: center;
   background: transparent;
-  padding: 1rem;
+  padding: 5px;
   filter: drop-shadow(0px -1px 5px rgba(0, 0, 0, 0.08));
   /* Note: currently only Safari supports backdrop-filter */
   backdrop-filter: blur(50px);
   --webkit-backdrop-filter: blur(50px);
   background-color: rgba(255, 255, 255, 0.5);
   /* (plus shape's fill blended on top as a separate layer with 23% opacity) */
+}
+
+.active {
+  border-top: 3px solid black;
+}
+.nav_btn_container {
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+  transition: 200ms;
 }

@@ -1,7 +1,7 @@
 .home_container {
   width: 100%;
   height: 100vh;
-  padding: 1rem;
+  padding: 2.5rem 1rem;
   animation: fadeIn ease-in-out 200ms forwards;
 }
 
@@ -27,6 +27,7 @@
 .greetings_header {
   width: 100%;
   height: 10%;
+
   display: flex;
   justify-content: space-around;
   padding: 0.8rem 0.1rem;
@@ -34,8 +35,8 @@
 
 .greetings_header > h3 {
   margin: 0;
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 17px;
+  font-weight: 10;
   color: #494949;
 }
 
@@ -53,8 +54,8 @@
 }
 .featured > h3 {
   margin: 0;
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 17px;
+  font-weight: 100;
   padding: 0.8rem;
   color: #494949;
 }
@@ -72,7 +73,7 @@
 }
 .trending > h3 {
   margin: 0;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 200;
   padding: 0.8rem;
   background: #aaa3a31a;
@@ -87,8 +88,11 @@
   width: 100%;
   height: 100%;
   display: grid;
+  grid-gap: 3px;
   grid-template-columns: 1.5fr 3.5fr 0.5fr;
   margin: 1rem 0;
+  padding: 10px 2px;
+
   border-bottom: 1px solid rgb(219, 216, 216);
 }
 
@@ -98,14 +102,15 @@
 }
 .item_content * {
   margin: 0;
-  padding: 0.2rem;
+  /* padding: 0.2rem; */
 }
 .item_content h4 {
-  font-weight: 700;
+  font-weight: 600;
   color: #494949;
+  font-size: 15px;
 }
 .item_content p {
-  font-size: 14px;
+  font-size: 11px;
   color: #a9a9a9;
 }
 
@@ -125,6 +130,7 @@ footer {
   padding: 0.5rem;
   color: #9d9283;
   font-weight: bold;
+  margin: 0.5rem 0;
 }
 
 /* trending divs ends  */
@@ -144,7 +150,7 @@ footer {
 }
 .latest h3 {
   margin: 0;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 200;
   padding: 0.8rem;
   background: #aaa3a31a;
@@ -159,6 +165,8 @@ footer {
   width: 100%;
   height: 100%;
   display: grid;
+  grid-gap: 3px;
+  padding: 10px 2px;
   grid-template-columns: 1.5fr 3.5fr 0.5fr;
   margin: 1rem 0;
   border-bottom: 1px solid rgb(219, 216, 216);
@@ -170,19 +178,20 @@ footer {
 }
 .item_content * {
   margin: 0;
-  padding: 0.2rem;
+  /* padding: 0.2rem; */
 }
 .item_content h4 {
-  font-weight: 700;
+  font-weight: 600;
   color: #494949;
 }
 .item_content p {
-  font-size: 14px;
+  font-size: 12px;
   color: #a9a9a9;
 }
 
 .item_content h6 {
   color: #9d9283;
+  font-size: 10px;
 }
 .more {
   justify-self: center;
@@ -197,6 +206,7 @@ footer {
   padding: 0.5rem;
   color: #9d9283;
   font-weight: bold;
+  font-size: 12px;
 }
 
 /* latest divs ends here */
@@ -205,8 +215,8 @@ footer {
 
 .banking h3 {
   margin: 0;
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 17px;
+  font-weight: 100;
   padding: 0.8rem;
   background: #aaa3a31a;
   color: #494949;
@@ -220,6 +230,9 @@ footer {
   width: 100%;
   height: 100%;
   display: grid;
+  grid-gap: 3px;
+  padding: 10px 2px;
+
   grid-template-columns: 1.5fr 3.5fr 0.5fr;
   margin: 1rem 0;
   border-bottom: 1px solid rgb(219, 216, 216);
@@ -227,6 +240,57 @@ footer {
 
 /* banking styling ends here */
 
+/* featured reports styling starts */
+
+.featured_reports {
+  width: 90%;
+  height: auto;
+  margin: 1.5rem 0;
+  border-bottom: 1px solid #9d9283;
+}
+
+.featured_reports h3 {
+  margin: 0;
+  padding: 0.8rem;
+  font-weight: 200;
+  color: #494949;
+  font-size: 17px;
+}
+
+/* featured reports styling ends */
+
+/* featured collection content styling starts*/
+
+.featured_collection {
+  width: 90%;
+  border-bottom: 1px solid #9d9283;
+}
+
+/* featured collection content styling ends */
+
+/* home footer starts*/
+.footer {
+  width: 100%;
+  height: 80%;
+  margin: 2rem 0;
+}
+.footer_content {
+  width: 90%;
+  height: 52%;
+  background-image: url("./placeholder/background.svg");
+  background-size: fit;
+  background-repeat: no-repeat;
+  /* text-align: center; */
+  padding: 5px;
+  border-radius: 5px;
+  color: #6c6161;
+}
+.footer_content > * {
+  position: relative;
+  top: 24%;
+}
+
+/* home footer ends */
 /* animation */
 @keyframes fadeIn {
   from {
@@ -236,3 +300,7 @@ footer {
     opacity: 1;
   }
 }
+
+/* experiment */
+
+/* ------xxxxxxxxxxxxxx------------*/

@@ -5,6 +5,7 @@ import home from "./navigation_icons/home.svg";
 import search from "./navigation_icons/search.svg";
 import library from "./navigation_icons/library.svg";
 import menu from "./navigation_icons/menu.svg";
+import { animateScroll as scroll } from "react-scroll";
 
 const Navigation = () => {
   useEffect(() => {
@@ -15,6 +16,7 @@ const Navigation = () => {
     btns[0].addEventListener("click", function() {
       if ([...btns[0].classList].includes("active")) {
         btns[0].classList.remove("active");
+        scroll.scrollToTop();
       }
       btns[0].classList.add("active");
       btns[1].classList.remove("active");
@@ -26,6 +28,7 @@ const Navigation = () => {
     btns[1].addEventListener("click", function() {
       if ([...btns[1].classList].includes("active")) {
         btns[1].classList.remove("active");
+        scroll.scrollToTop();
       }
       btns[1].classList.add("active");
       btns[0].classList.remove("active");
@@ -35,6 +38,7 @@ const Navigation = () => {
     btns[2].addEventListener("click", function() {
       if ([...btns[2].classList].includes("active")) {
         btns[2].classList.remove("active");
+        scroll.scrollToTop();
       }
       btns[2].classList.add("active");
       btns[1].classList.remove("active");
@@ -44,6 +48,7 @@ const Navigation = () => {
     btns[3].addEventListener("click", function() {
       if ([...btns[3].classList].includes("active")) {
         btns[3].classList.remove("active");
+        scroll.scrollToTop();
       }
       btns[2].classList.remove("active");
       btns[1].classList.remove("active");
@@ -55,7 +60,7 @@ const Navigation = () => {
   return (
     <div className="navigation_bar">
       <div className="nav_btn_container active">
-        <Link to="#">
+        <Link to="#" spy={true} smooth={true}>
           <img src={home} alt="home" />
         </Link>
       </div>

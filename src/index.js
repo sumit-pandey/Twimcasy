@@ -1,10 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import Player from "./Components/MaxPlayer/MaxPlayer";
+import * as serviceWorker from "./serviceWorker";
+import TransitionsModal from "./Components/Tryouts";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Player />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
